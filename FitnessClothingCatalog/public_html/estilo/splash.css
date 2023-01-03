@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+}
+
+#cabecalho{
+    background-image: linear-gradient(#d4a6ff, #8fffb2);
+    width: 100%;
+}
+
+#logo{
+    float: left;
+    margin: 1%;
+}
+
+#titulo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4.5em;
+    line-height: 150px;
+    
+}
+
+
