@@ -21,7 +21,16 @@ body{
     font-family: 'Quicksand', sans-serif;
     font-size: 4.5em;
     line-height: 150px;
-    
+}
+
+#menu{
+    margin: 0 1% 0;
+}
+#pesquisa-menu{
+    margin: 0 4% 0;
+}
+#btn-pesquisar-menu{
+    margin-left:1%;
 }
 
 
