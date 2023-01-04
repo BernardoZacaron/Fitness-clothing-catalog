@@ -12,6 +12,21 @@ main{
     width: 100%;
 }
 
+#exibicao{
+    
+}
+
+.card-roupa{
+    border:1px solid black;
+    width: 20%;
+    margin: 2%;
+    padding: 1%;
+}
+
+.img-roupa{
+    width: 96%;
+    margin: 5px 2% 10px;
+}
 
 #cabecalho{
     background-image: linear-gradient(#d4a6ff, #8fffb2);
@@ -25,7 +40,7 @@ main{
 
 #titulo{
     font-family: 'Quicksand', sans-serif;
-    font-size: 4.5em;
+    font-size: 4.8em;
     line-height: 150px;
 }
 
