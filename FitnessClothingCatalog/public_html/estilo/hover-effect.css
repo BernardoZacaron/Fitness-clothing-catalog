@@ -2,9 +2,7 @@
 .info-roupa {
   display: none;
 }
-.roupa1:hover + .info-roupa1 {
+.roupa1:hover + .info-roupa1{
     display: block;
 }
-.roupa1:hover + #roupa1 {
-    z-index: 9999;
-}
+
