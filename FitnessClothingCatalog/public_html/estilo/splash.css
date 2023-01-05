@@ -14,15 +14,20 @@ main{
 
 #exibicao{
     height: available;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .fileira-roupa{
-    
+    display: flex;
+    max-height: 230px;
+    padding-bottom: 10%;
 }
 
 .card-roupa{
     border: 1px solid black;
-    width: 20%;
     margin: 2%;
     padding: 1%;
     background-color: #e8ce8e;
