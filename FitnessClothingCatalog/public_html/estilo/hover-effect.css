@@ -1,0 +1,7 @@
+
+.info-roupa {
+  display: none;
+}
+.roupa1:hover + .roupa1 {
+    display: block;
+}

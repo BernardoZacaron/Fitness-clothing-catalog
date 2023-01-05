@@ -13,14 +13,20 @@ main{
 }
 
 #exibicao{
+    height: available;
+}
+
+.fileira-roupa{
     
 }
 
 .card-roupa{
-    border:1px solid black;
+    border: 1px solid black;
     width: 20%;
     margin: 2%;
     padding: 1%;
+    background-color: #e8ce8e;
+    height: 100%;
 }
 
 .img-roupa{
