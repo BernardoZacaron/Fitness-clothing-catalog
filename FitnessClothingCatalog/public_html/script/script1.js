@@ -1,10 +1,12 @@
-const card = document.getElementById("roupa1");
+const card = document.getElementById("celula1");
+const info = document.getElementById("info-roupa1");
 
-var info = document.getElementsByClassName(Object.keys({card})[0]);
+card.addEventListener('mouseover', function handleMouseOver() {
+    info.style.display = 'block';
+    card.style.zIndex = '99';
+});
 
-function Mostrar(){
-    info.style.display='block';
-}
-
-
-document.getElementById("").addEventListener("mouseover", Mostrar);
+card.addEventListener('mouseout', function handleMouseOut() {
+    info.style.display = 'none';
+    card.style.zIndex = '0';
+});
