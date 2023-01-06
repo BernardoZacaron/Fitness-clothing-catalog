@@ -4,10 +4,11 @@
 
 
 .card-roupa:hover {
-    width: 90%;
-    margin: 0 5% 25px;  
+    width: 20%;
+    margin: 0 2.5% 0;  
     display: block;
     z-index: 9;
+    position: absolute;
 }
 
 .card-roupa:hover .info-roupa {
