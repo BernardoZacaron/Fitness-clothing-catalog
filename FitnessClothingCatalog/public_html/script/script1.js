@@ -1,17 +1,16 @@
-const card = document.getElementById("celula1");
-const info = document.getElementById("info-roupa1");
 
-card.addEventListener('mouseover', function handleMouseOver() {
-    info.style.display = 'block';
-    card.style.zIndex = '99';
-});
-
-card.addEventListener('mouseout', function handleMouseOut() {
-    info.style.display = 'none';
-    card.style.zIndex = '0';
-});
-
-
-var itensMasc = document.getElementsByClassName("");
-var itensFem = document.getElementsByClassName("");
+var itensTodos = document.getElementsByClassName("celula");
+var itensMasc = document.getElementsByClassName("item-masc");
+var itensFem = document.getElementsByClassName("item-fem");
 var itensLanc = document.getElementsByClassName("");
+
+function filtrarMasculino(){
+    [].forEach.call(itensTodos, function (div) {
+        div.style.display = 'none';
+    });
+}
+
+
+function tornarInvisivel(div){
+    div.style.display = 'none';
+}
