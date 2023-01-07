@@ -10,3 +10,8 @@ card.addEventListener('mouseout', function handleMouseOut() {
     info.style.display = 'none';
     card.style.zIndex = '0';
 });
+
+
+var itensMasc = document.getElementsByClassName("");
+var itensFem = document.getElementsByClassName("");
+var itensLanc = document.getElementsByClassName("");
