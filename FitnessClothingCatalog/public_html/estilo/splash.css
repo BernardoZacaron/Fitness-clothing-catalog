@@ -32,8 +32,15 @@ header{
 #btn-pesquisar-menu{
     margin-left:1%;
 }
+#filtro-inicio{
+    font-weight: bolder;
+    color: black;
+}
 
-
+.nav-item{
+    color: darkslategray;
+    font-weight: normal;
+}
 
 body{
 }
