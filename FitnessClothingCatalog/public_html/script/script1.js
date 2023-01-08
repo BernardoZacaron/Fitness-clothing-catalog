@@ -1,4 +1,4 @@
-
+var exibicao = document.getElementById("exibicao");
 var itensTodos = document.getElementsByClassName("celula");
 var itensMasc = document.getElementsByClassName("item-masc");
 var itensFem = document.getElementsByClassName("item-fem");
@@ -11,7 +11,6 @@ function filtrarMasculino(){
     
     [].forEach.call(itensMasc, function (div) {
         div.style.display = 'block';
-        div.style.marginBottom = '36%';
     });
 }
 
@@ -22,7 +21,6 @@ function filtrarFeminino(){
     
     [].forEach.call(itensFem, function (div) {
         div.style.display = 'block';
-        div.style.marginBottom = '36%';
     });
 }
 
@@ -33,6 +31,5 @@ function filtrarLancamento(){
     
     [].forEach.call(itensLanc, function (div) {
         div.style.display = 'block';
-        div.style.marginBottom = '36%';
     });
 }
