@@ -7,6 +7,13 @@
 header{
 }
 
+@media (max-width: 500px){
+    #form-pesquisa{
+        display: none;
+    }
+}
+
+
 body{
 }
 
@@ -104,6 +111,8 @@ footer{
     font-size: 2em;
     margin:0 0 1%;
 }
+
+
 
 
 /*cores*/
