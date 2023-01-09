@@ -53,24 +53,6 @@
     .info-roupa p{
         font-size: 0.95em;
     }
-
-    footer{
-        padding: 1% 5% 0;
-        height: auto;
-        background-color: #d4a6ff;
-    }
-
-    .logo-contato{
-        width: 25px;
-        float: left;
-        margin-right: 10px;
-    }
-
-    #titulo-contato{
-        font-size: 2em;
-        margin-bottom: 1%;
-    }
-    
     
     .card-roupa:hover {
         width: 45%;
@@ -86,5 +68,35 @@
         display: block;
         position: relative;
         z-index: 9;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width:1000px){
+    #exibicao{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: stretch;
+        align-items: stretch;
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding-bottom: 10%;
+        padding-top: 5%;
+    }
+    
+    #menu{
+        font-size: 1.5em;
+        margin: 0;
+    }
+    
+    #menu-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    footer{
+        
     }
 }
