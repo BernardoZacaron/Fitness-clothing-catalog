@@ -73,18 +73,16 @@ main{
     position: relative;
 }
 
-.info-roupa{
-}
-
 .img-roupa{
     width: 96%;
     margin: 5px 2% 10px;
 }
 
-footer{
+#rodape{
     padding: 1% 2% 1%;
     background-color: #d4a6ff;
     width: 100%;
+    align-self: end;
 }
 
 .logo-contato{
