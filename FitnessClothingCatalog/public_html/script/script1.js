@@ -84,3 +84,17 @@ function atualizarSelecionado(atual, anterior){
         btnMasc.style.color = 'black';
     }
 }
+
+
+var cards = document.getElementsByClassName("card-roupa");
+
+for (var i = 0; i < cards.length; i++) {
+    cards[i].addEventListener("mouseover", function(){
+        this.classList.remove('contraido');
+        this.classList.add('expandido');
+    });
+    cards[i].addEventListener("mouseout", function(){
+        this.classList.remove('expandido');
+        this.classList.add('contraido');
+    });
+}
