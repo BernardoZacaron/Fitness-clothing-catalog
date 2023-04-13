@@ -52,18 +52,22 @@ main{
     min-height: 600px;
 }
 
+
+/*Catálogo*/
 #exibicao{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: stretch;
-    align-items: stretch;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .celula{
-    margin-bottom: 15%;
+    width: 30%;
 }
 
+
+
+/*Roupas*/
 .card-roupa{
     border: 1px solid black;
     background-color: #fca39d;
@@ -78,6 +82,12 @@ main{
     margin: 5px 2% 10px;
 }
 
+.contraido{}
+
+.expandido{}
+
+
+/*Rodapé*/
 #rodape{
     padding: 1% 2% 1%;
     background-color: #d4a6ff;
@@ -99,10 +109,6 @@ main{
     margin-top: 1%;
 }
 
-
-.contraido{}
-
-.expandido{}
 
 
 
