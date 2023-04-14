@@ -32,6 +32,11 @@ main{
     background-color: #d8e4f0;
 }
 
+.card-roupa{
+    border: 1px solid black;
+    background-color: #fca39d;
+}
+
     /*Telas grandes*/
 @media (min-width: 900px){
 main{
