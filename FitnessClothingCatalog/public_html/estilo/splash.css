@@ -1,3 +1,4 @@
+    /*Geral*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 *{
     margin:0;
@@ -9,7 +10,6 @@ header{
 
 #cabecalho{
     background-image: linear-gradient(#d4a6ff, #8fffb2);
-    width: 100%;
 }
 
 #logo{
@@ -52,6 +52,10 @@ main{
     min-height: 600px;
 }
 
+    /*Telas grandes*/
+#cabecalho{
+    width: 100%;
+}
 
 /*Catálogo*/
 #exibicao{
