@@ -5,9 +5,6 @@
     padding:0;
 }
 
-header{
-}
-
 #cabecalho{
     background-image: linear-gradient(#d4a6ff, #8fffb2);
 }
@@ -19,19 +16,9 @@ header{
 
 #titulo{
     font-family: 'Quicksand', sans-serif;
-    font-size: 4.8em;
-    line-height: 150px;
 }
 
-#menu{
-    margin: 0 1% 0;
-}
-#pesquisa-menu{
-    margin: 0 4% 0;
-}
-#btn-pesquisar-menu{
-    margin-left:1%;
-}
+
 #filtro-inicio{
     font-weight: bolder;
     color: black;
@@ -53,8 +40,24 @@ main{
 }
 
     /*Telas grandes*/
+@media (min-width: 900px){
+
 #cabecalho{
     width: 100%;
+}
+
+#titulo{
+    font-family: 'Quicksand', sans-serif;
+}
+
+#menu{
+    margin: 0 1% 0;
+}
+#pesquisa-menu{
+    margin: 0 4% 0;
+}
+#btn-pesquisar-menu{
+    margin-left:1%;
 }
 
 /*Catálogo*/
@@ -113,7 +116,7 @@ main{
     margin-top: 1%;
 }
 
-
+}
 
 
 /*cores*/
