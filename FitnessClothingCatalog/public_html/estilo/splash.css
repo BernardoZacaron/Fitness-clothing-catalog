@@ -52,10 +52,6 @@ body{
     width: 100%;
 }
 
-#titulo{
-    font-family: 'Quicksand', sans-serif;
-}
-
 #menu{
     margin: 0 1% 0;
 }
@@ -68,7 +64,6 @@ body{
 
 /*Catálogo*/
 #exibicao{
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
