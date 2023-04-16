@@ -45,12 +45,17 @@ main{
 
     /*Telas grandes*/
 @media (min-width: 951px){
+#conteudo-header{
+    padding-top: 2vw;
+}
+
 main{
     min-height: 60vw;
 }
 
 #cabecalho{
     width: 100%;
+    height: 10vw;
 }
 
 #menu{
