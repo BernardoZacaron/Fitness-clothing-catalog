@@ -88,6 +88,9 @@ main{
 
 /*Roupas*/
 .card-roupa{
+    padding: 1%;
+    width: 80%;
+    height: 90%;
 }
 
 .img-roupa{
