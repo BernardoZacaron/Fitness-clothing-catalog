@@ -100,6 +100,13 @@ main{
     height: 100%;
 }
 
+.contraido .info-roupa{
+    display: none;
+}
+.expandido .info-roupa{
+    display: block;
+}
+
 
 .img-roupa{
     width: 96%;
