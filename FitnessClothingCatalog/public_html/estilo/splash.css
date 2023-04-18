@@ -75,13 +75,14 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+    grid-auto-rows: 48vh;
 
     width: 100%;
     height: fit-content;
 }
 
 .celula{
-    width: 14vw;
+    width: 15vw;
     height: 45vh;
 }
 
@@ -111,6 +112,10 @@ main{
 .img-roupa{
     width: 96%;
     margin: 5px 2% 10px;
+}
+
+.card-roupa h4{
+    text-align: center;
 }
 
 
