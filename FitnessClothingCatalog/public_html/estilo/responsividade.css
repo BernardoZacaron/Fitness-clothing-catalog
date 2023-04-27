@@ -67,6 +67,14 @@
         position: relative;
         z-index: 9;
     }
+    
+    .logo-contato{
+        width: 10%;
+    }
+
+    #fileira-contatos{
+        display: flex;
+    }
 }
 
 

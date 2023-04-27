@@ -125,10 +125,20 @@ main{
     width: 100%;
 }
 
+.con-contato{
+    width: 30vw;
+    display: inline-flex;
+}
+
+.con-contato div{
+    vertical-align: middle;
+}
+
 .logo-contato{
-    width: 25px;
+    width: 3vw;
     float: left;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 #titulo-contato{
@@ -137,6 +147,8 @@ main{
 
 #fileira-contatos{
     margin-top: 1%;
+    display: flex;
+    flex-direction: row;
 }
 
 }
