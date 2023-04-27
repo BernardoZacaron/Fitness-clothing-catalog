@@ -17,7 +17,7 @@
     }
 
     #menu{
-        margin-left: 10%;
+        margin-left: -10%;
     }
     
     #exibicao{
@@ -41,6 +41,10 @@
         margin: 0 20% 25px;  
         display: block;
         position: relative;
+    }
+    .card-roupa h4{
+        text-align: center;
+        font-size: medium;
     }
 
     .img-roupa{
@@ -66,6 +70,13 @@
         display: block;
         position: relative;
         z-index: 9;
+    }
+
+    .contraido .info-roupa{
+        display: none;
+    }
+    .expandido .info-roupa{
+        display: block;
     }
     
     .logo-contato{
@@ -93,14 +104,12 @@
     
     #menu{
         font-size: 1.5em;
-        margin: 0;
     }
     
-    #menu-container{
+    /* #menu-container{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-    }
+    } */
     
     footer{
         

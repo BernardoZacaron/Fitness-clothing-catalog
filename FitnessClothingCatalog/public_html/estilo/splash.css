@@ -135,7 +135,7 @@ main{
 }
 
 .logo-contato{
-    width: 3vw;
+    width: 2vw; height: 2vw;
     float: left;
     margin-right: 10px;
     vertical-align: middle;
