@@ -86,6 +86,10 @@
     #fileira-contatos{
         display: flex;
     }
+
+    footer{
+        display: flex;
+    }
 }
 
 
@@ -112,6 +116,6 @@
     } */
     
     footer{
-        
+        display: flex;
     }
 }
