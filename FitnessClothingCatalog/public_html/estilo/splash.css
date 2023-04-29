@@ -97,8 +97,11 @@ main{
     height: 70%;
 }
 .expandido{
-    width: 100%;
+    
+    transition: width .5s;
+    
     height: 100%;
+    width: 100%;
 }
 
 .contraido .info-roupa{
@@ -106,11 +109,6 @@ main{
 }
 .expandido .info-roupa{
     display: block;
-    -moz-transition: height .5s;
-    -ms-transition: height .5s;
-    -o-transition: height .5s;
-    -webkit-transition: height .5s;
-    transition: height .5s;
 }
 
 
