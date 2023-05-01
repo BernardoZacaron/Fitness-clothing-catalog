@@ -83,7 +83,8 @@
     } */
    
     #rodape{
-        padding-left: 2%;
+        padding: 1% 2% 4vh;
+        width: 100%;
     }
     
     .logo-contato{
