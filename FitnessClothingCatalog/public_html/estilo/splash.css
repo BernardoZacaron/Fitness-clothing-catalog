@@ -98,7 +98,7 @@ main{
 }
 .expandido{
     
-    transition: width .5s;
+    transition: height .5s ease-out;
     
     height: 100%;
     width: 100%;
