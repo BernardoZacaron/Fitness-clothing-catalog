@@ -90,6 +90,8 @@ main{
 /*Roupas*/
 .card-roupa{
     padding: 1%;
+    overflow: hidden; 
+    white-space: nowrap;
 }
 .contraido{
     margin: 0 10% 10%;
@@ -97,7 +99,6 @@ main{
     height: 70%;
 }
 .expandido{
-    
     transition: height .5s ease-out;
     
     height: 100%;

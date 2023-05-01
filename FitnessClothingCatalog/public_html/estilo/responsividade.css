@@ -69,7 +69,6 @@
         margin: 0 5% 25px;  
         display: block;
         position: relative;
-        z-index: 9;
     }
 
     .contraido .info-roupa{
@@ -77,8 +76,9 @@
     }
     .expandido .info-roupa{
         display: block;
-    }
 
+    }
+   
     #rodape{
         padding-left: 2%;
     }
