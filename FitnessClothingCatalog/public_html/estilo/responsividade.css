@@ -34,11 +34,12 @@
     
     .celula{
         margin-bottom: 5%;
+        height: 40vh;
     }
 
     .card-roupa{
-        width: 60%;
-        margin: 0 20% 25px;  
+        width: 80%;
+        margin: 0 10% 25px;  
         display: block;
         position: relative;
     }
@@ -51,33 +52,35 @@
         width: 96%;
         margin: 5px 2% 10px;
     }
-    
+
+    .info-roupa{
+        padding: 0 5% 0;
+    }
     .info-roupa p{
         font-size: 0.95em;
     }
     
-    .card-roupa:hover {
+    /* .card-roupa:hover {
         width: 45%;
         margin: 0 2.5% 0;  
         display: block;
         z-index: 9;
         position: absolute;
-    }
+    } */
 
-    .card-roupa:hover .info-roupa {
+    /* .card-roupa:hover .info-roupa {
         width: 90%;
         margin: 0 5% 25px;  
         display: block;
         position: relative;
-    }
+    } */
 
-    .contraido .info-roupa{
+    /* .contraido .info-roupa{
         display: none;
     }
     .expandido .info-roupa{
         display: block;
-
-    }
+    } */
    
     #rodape{
         padding-left: 2%;
