@@ -113,7 +113,6 @@
         align-items: stretch;
         width: 100%;
         height: auto;
-        position: relative;
         padding-bottom: 10%;
         padding-top: 5%;
     }
@@ -121,11 +120,6 @@
     #menu{
         font-size: 1.5em;
     }
-    
-    /* #menu-container{
-        display: flex;
-        flex-direction: row;
-    } */
     
     footer{
         display: flex;
