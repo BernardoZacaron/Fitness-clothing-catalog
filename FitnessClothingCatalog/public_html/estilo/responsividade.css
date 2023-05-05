@@ -42,6 +42,7 @@
         margin: 0 10% 25px;  
         display: block;
         position: relative;
+        height: 100%; /*Caso queira deixar todos com a mesma altura*/
     }
     .card-roupa h4{
         text-align: center;
