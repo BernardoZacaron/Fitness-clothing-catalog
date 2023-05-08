@@ -10,6 +10,9 @@
 p{
     font-family: 'Source Sans Pro', sans-serif;
 }
+.quadraro-cor{
+    font-family: courier;
+}
 
 #cabecalho{
     background-image: linear-gradient(#d4a6ff, #8fffb2);
@@ -126,6 +129,10 @@ main{
 
 .card-roupa h4{
     text-align: center;
+}
+
+.preco{
+    margin-top: -10px;;
 }
 
 
