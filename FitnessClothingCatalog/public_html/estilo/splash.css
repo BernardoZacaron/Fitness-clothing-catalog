@@ -76,14 +76,14 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    grid-auto-rows: 47vh;
+    grid-auto-rows: 70vh;
 
     width: 100%;
 }
 
 .celula{
-    width: 15vw;
-    height: 45vh;
+    width: 20vw;
+    height: 90%;
 }
 
 
