@@ -85,7 +85,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    grid-auto-rows: 90vh;
+    grid-auto-rows: 80vh;
 
     width: 100%;
 }
@@ -121,6 +121,9 @@ main{
     display: block;
 }
 
+.info-roupa{
+    padding: 1%;
+}
 
 .img-roupa{
     width: 96%;
@@ -129,6 +132,9 @@ main{
 
 .card-roupa h4{
     text-align: center;
+}
+.card-roupa p{
+    font-size: large;
 }
 
 .preco{
