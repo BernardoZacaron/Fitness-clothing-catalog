@@ -204,3 +204,12 @@ main{
 .cor-branco{
     color: white;
 }
+
+
+:root{
+    --azul-claro: #0061bf;
+    --azul-escuro: #003183;
+    --laranja: #fd7d00;
+    --amarelo-escuro: #e7b901;
+    --amarelo-claro: #f2fb7a;
+}
