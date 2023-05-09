@@ -15,7 +15,7 @@ p{
 }
 
 #cabecalho{
-    background-image: linear-gradient(#d4a6ff, #8fffb2);
+    background-image: linear-gradient(var(--laranja), var(--amarelo-claro));
 }
 
 #logo{
@@ -38,16 +38,17 @@ p{
 }
 
 main{
-    background-color: #d8e4f0;
+    background-color: var(--azul-claro);
 }
 
 .card-roupa{
-    border: 1px solid black;
-    background-color: #fca39d;
+    border: 1px solid var(--laranja);
+    background-color: var(--amarelo-escuro);
 }
 
 #rodape{
-    background-color: #d4a6ff;
+    background-color: var(--azul-escuro);
+    color: white;
     align-self: end;
 }
 
@@ -207,7 +208,8 @@ main{
 
 
 :root{
-    --azul-claro: #0061bf;
+    --azul:#0061bf;
+    --azul-claro: #a7c4fa;
     --azul-escuro: #003183;
     --laranja: #fd7d00;
     --amarelo-escuro: #e7b901;
