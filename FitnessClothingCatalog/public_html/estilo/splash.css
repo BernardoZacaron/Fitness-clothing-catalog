@@ -85,7 +85,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    grid-auto-rows: 70vh;
+    grid-auto-rows: 90vh;
 
     width: 100%;
 }
@@ -98,7 +98,7 @@ main{
 
 /*Roupas*/
 .card-roupa{
-    padding: 1%;
+    padding: 1px;
     overflow: hidden; 
     white-space: nowrap;
 }
