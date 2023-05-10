@@ -1,7 +1,10 @@
 const btnInicio = document.getElementById('filtro-inicio');
 const btnLanc = document.getElementById('filtro-lanc');
-const btnFem = document.getElementById('filtro-fem');
-const btnMasc = document.getElementById('filtro-masc');
+
+const btnShorts = document.getElementById('filtro-shorts');
+const btnTops = document.getElementById('filtro-tops');
+const btnCalças = document.getElementById('filtro-calcas');
+const btnAgasalhos = document.getElementById('filtro-agasalhos');
 
 var itensTodos = document.getElementsByClassName("celula");
 var itensMasc = document.getElementsByClassName("item-masc");
