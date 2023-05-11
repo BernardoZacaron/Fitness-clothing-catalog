@@ -93,7 +93,7 @@ main{
 
 .celula{
     width: 20vw;
-    height: 90%;
+    height: fit-content;
 }
 
 
@@ -104,21 +104,20 @@ main{
     white-space: nowrap;
 }
 .contraido{
-    margin: 0 10% 10%;
+    margin: 0 10% 30%;
     width: 80%;
     height: 70%;
 }
 .expandido{
-    transition: height .5s ease-out;
-    
+    margin: 0;
     height: 100%;
     width: 100%;
 }
 
-.contraido .info-roupa{
+.contraido .conteudo-roupa{
     display: none;
 }
-.expandido .info-roupa{
+.expandido .conteudo-roupa{
     display: block;
 }
 
@@ -141,6 +140,7 @@ main{
 .preco{
     margin-top: -10px;;
 }
+
 
 
 /*Rodapé*/
