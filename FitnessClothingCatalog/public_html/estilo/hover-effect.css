@@ -9,7 +9,6 @@
     display: block;
     z-index: 9;
     position: absolute;
-    transition: height .5s ease-out;
 }
 
 .card-roupa:hover .info-roupa {
@@ -17,8 +16,6 @@
     margin: 0 5% 25px;  
     display: block;
     position: relative;
-    z-index: 9;
-
-    
+    z-index: 9; 
 }
 

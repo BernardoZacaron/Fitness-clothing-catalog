@@ -102,6 +102,7 @@ main{
     padding: 1px;
     overflow: hidden; 
     white-space: nowrap;
+    transition: .5s ease-out;
 }
 .contraido{
     margin: 0 10% 30%;
