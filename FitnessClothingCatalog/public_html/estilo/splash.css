@@ -54,7 +54,7 @@ main{
 
 
     /*Telas grandes*/
-@media (min-width: 951px){
+@media (min-width: 769px) and (max-width:1200px){
 #conteudo-header{
     padding-top: 2vw;
 }
