@@ -31,6 +31,9 @@
         padding-bottom: 10%;
         padding-top: 5%;
     }
+    #exibicao p{
+        line-height: 50%;
+    }
     
     .celula{
         margin-bottom: 5%;
