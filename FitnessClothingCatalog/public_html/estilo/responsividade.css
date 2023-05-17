@@ -37,12 +37,12 @@
     
     .celula{
         margin-bottom: 5%;
-        height: 40vh;
+        height: 45vh;
     }
 
     .card-roupa{
-        width: 80%;
-        margin: 0 10% 25px;  
+        width: 92%;
+        margin: 0 4% 25px;  
         display: block;
         position: relative;
         height: 100%; /*Caso queira deixar todos com a mesma altura*/
